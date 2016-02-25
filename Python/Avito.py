@@ -81,6 +81,6 @@ if __name__ == '__main__':
         msg += '-' * 50 + '\n'
     server = smtplib.SMTP('smtp.mail.ru', 587)
     server.starttls()
-    server.login("stratopedarx@mail.ru", "stratopedarx1")
-    server.sendmail("stratopedarx@mail.ru", "stratopedarx@mail.ru", msg)  # irishkakonv@mail.ru
+    server.login("irishkakonv@mail.ru", "irishkakonv")
+    server.sendmail("stratopedarx@mail.ru", "irishkakonv@mail.ru", msg)  # irishkakonv@mail.ru
     server.quit()
